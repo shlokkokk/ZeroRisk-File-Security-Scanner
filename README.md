@@ -1,12 +1,9 @@
 # ZeroRisk Sentinel 🔒
-🔗 Live Demo: https://shlokkokk.github.io/ZeroRisk-File-Security-Scanner
-
-
 > **Advanced Cybersecurity File Analysis Tool with Hacker-Themed Interface**
 
+🔗 Live Demo: https://shlokkokk.github.io/ZeroRisk-File-Security-Scanner
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner)
-[![Security](https://img.shields.io/badge/security-grade_A+-green.svg)](https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner)
 
 ## 🚀 Overview
 
