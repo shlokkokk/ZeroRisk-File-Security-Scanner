@@ -3,8 +3,8 @@
 > **Advanced Cybersecurity File Analysis Tool with Hacker-Themed Interface**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://github.com/yourusername/cyberguard-file-analyzer)
-[![Security](https://img.shields.io/badge/security-grade_A+-green.svg)](https://github.com/yourusername/cyberguard-file-analyzer)
+[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner)
+[![Security](https://img.shields.io/badge/security-grade_A+-green.svg)](https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner)
 
 ## 🚀 Overview
 
@@ -13,39 +13,17 @@ ZeroRisk Sentinel is a cutting-edge cybersecurity tool designed to analyze files
 ### ✨ Key Features
 
 - **🔍 File Header Analysis** - Detects extension spoofing and file type mismatches
-- **🦠 Malware Detection** - Scans for 15,000+ known malware signatures
+- **🦠 Malware Detection** - Detects unsafe patterns, malicious strings, and suspicious API usage
 - **⌨️ Keylogger Detection** - Identifies keystroke logging functionality
 - **📊 Real-time Analysis** - Live scanning with animated progress indicators
 - **🎨 Hacker-Themed UI** - Professional cybersecurity interface with matrix effects
 - **📱 Responsive Design** - Works on desktop and mobile devices
 - **🔒 Privacy-First** - All analysis happens client-side, no data upload
 
-## 🛠️ Technology Stack
-
-### Frontend Technologies
-- **HTML5** - Semantic markup and modern web standards
-- **CSS3** - Advanced styling with Tailwind CSS framework
-- **JavaScript ES6+** - Modern JavaScript with async/await
-- **Responsive Design** - Mobile-first approach
-
-### Animation & Effects Libraries
-- **Anime.js** - Smooth UI animations and transitions
-- **Pixi.js** - Hardware-accelerated 2D graphics
-- **ECharts.js** - Interactive data visualization
-- **Splitting.js** - Text animation effects
-- **Typed.js** - Typewriter text animations
-- **p5.js** - Creative coding and matrix background
-- **Matter.js** - Physics-based animations
-
-### Fonts & Typography
-- **JetBrains Mono** - Terminal-style monospace font
-- **Inter** - Clean, modern sans-serif font
-- **Orbitron** - Futuristic font for headings
-
 ## 📁 Project Structure
 
 ```
-cyberguard-file-analyzer/
+ZeroRisk-File-Security-Scanner/
 ├── index.html              # Main file scanner interface
 ├── results.html            # Analysis results and reports
 ├── about.html              # Methodology and documentation
@@ -56,9 +34,9 @@ cyberguard-file-analyzer/
 │   ├── shield-icon.png     # Security shield icon
 │   └── hacker-avatar.jpg   # Cybersecurity expert avatar
 ├── interaction.md          # Interaction design documentation
-├── design.md              # Visual design specifications
-├── outline.md             # Project structure outline
-└── README.md              # This file
+├── design.md               # Visual design specifications
+├── outline.md              # Project structure outline
+└── README.md               # This file
 ```
 
 ## 🚀 Quick Start
@@ -82,13 +60,6 @@ npx serve .
 # Open in browser
 # Navigate to http://localhost:8000
 ```
-
-### Option 3: GitHub Pages Deployment
-1. Fork this repository
-2. Go to Settings → Pages
-3. Select "Deploy from a branch"
-4. Choose "main" branch and "/ (root)" folder
-5. Your site will be available at `https://yourusername.github.io/cyberguard-file-analyzer`
 
 ## 📋 Installation Guide
 
@@ -161,30 +132,12 @@ npx serve .
 The analyzer can detect and analyze over 127 file formats including:
 
 - **Documents**: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, TXT
-- **Images**: JPEG, PNG, GIF, BMP, TIFF, SVG
+- **Images**: JPEG, PNG, GIF, BMP, TIFF
 - **Archives**: ZIP, RAR, 7Z, TAR, GZ
 - **Executables**: EXE, DLL, MSI, APK, JAR
 - **Media**: MP3, MP4, AVI, WMV, MOV, FLV
 - **Code**: JS, HTML, CSS, PHP, Python, Java
 - **System**: BAT, CMD, PS1, VBS, WSF
-
-## 🔧 Configuration
-
-### Customizing Analysis Settings
-
-The analyzer includes several configuration options that can be modified in `main.js`:
-
-```javascript
-// Analysis Configuration
-const config = {
-    maxFileSize: 100 * 1024 * 1024, // 100MB
-    scanTimeout: 30000, // 30 seconds
-    maxFiles: 10,
-    enableDeepScan: true,
-    enableHeuristicAnalysis: true,
-    enableMachineLearning: true
-};
-```
 
 ### Threat Level Thresholds
 
@@ -199,39 +152,6 @@ const threatLevels = {
 };
 ```
 
-## 🎨 Customization
-
-### Changing the Color Scheme
-
-Modify CSS custom properties in any HTML file:
-
-```css
-:root {
-    --bg-primary: #0a0a0a;        /* Main background */
-    --bg-secondary: #1a1a1a;      /* Card backgrounds */
-    --terminal-green: #00ff41;    /* Safe indicators */
-    --warning-amber: #ff6b35;     /* Warning indicators */
-    --critical-red: #dc143c;      /* Critical indicators */
-    --accent-blue: #00d4ff;       /* Interactive elements */
-    --text-primary: #ffffff;      /* Primary text */
-    --text-secondary: #e0e0e0;    /* Secondary text */
-}
-```
-
-### Adding Custom Animations
-
-The project uses Anime.js for animations. Example:
-
-```javascript
-anime({
-    targets: '.analysis-card',
-    opacity: [0, 1],
-    translateY: [50, 0],
-    duration: 800,
-    easing: 'easeOutQuart'
-});
-```
-
 ## 🔒 Security Features
 
 ### Client-Side Analysis
@@ -240,9 +160,8 @@ anime({
 - Protects your privacy and sensitive files
 
 ### Threat Detection
-- **Signature-Based Detection**: 15,000+ malware signatures
+- **Signature-Based Detection**: Heuristic pattern detection
 - **Heuristic Analysis**: Suspicious behavior patterns
-- **Machine Learning**: AI-powered threat identification
 - **Extension Spoofing Detection**: File type mismatch identification
 - **Keylogger Detection**: Keystroke logging functionality detection
 
@@ -288,17 +207,6 @@ if (keyloggerDetected) {
 2. Enable GitHub Pages in repository settings
 3. Your site will be live at `https://yourusername.github.io/cyberguard-file-analyzer`
 
-### Netlify
-1. Connect your GitHub repository to Netlify
-2. Build command: (none needed)
-3. Publish directory: `/`
-4. Deploy automatically on push
-
-### Vercel
-1. Import repository from GitHub
-2. Framework preset: Static
-3. Deploy with one click
-
 ### Traditional Web Hosting
 1. Upload all files to your web server
 2. Ensure `index.html` is in the root directory
@@ -333,10 +241,6 @@ if (keyloggerDetected) {
 | Edge | 80+ | ✅ Full Support |
 | Opera | 67+ | ✅ Full Support |
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
 ### How to Contribute
 
 1. Fork the repository
@@ -353,65 +257,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - 🔒 Security improvements
 - 📈 Performance optimizations
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 CyberGuard File Analyzer
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## 🙏 Acknowledgments
-
-- **Cybersecurity Community** - For threat intelligence and research
-- **Open Source Libraries** - Anime.js, Pixi.js, ECharts.js, and others
-- **Font Designers** - JetBrains Mono, Inter, and Orbitron font families
-- **Security Researchers** - For malware signatures and detection patterns
-
-## 📞 Support
-
-- 📧 Email: support@cyberguard-analyzer.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/cyberguard-file-analyzer/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/cyberguard-file-analyzer/discussions)
-- 📖 Documentation: [Wiki](https://github.com/yourusername/cyberguard-file-analyzer/wiki)
-
-## 🔮 Roadmap
-
-### Version 2.2 (Coming Soon)
-- [ ] Cloud-based threat intelligence integration
-- [ ] Advanced machine learning models
-- [ ] Batch processing improvements
-- [ ] API for third-party integrations
-
-### Version 3.0 (Future)
-- [ ] Desktop application (Electron)
-- [ ] Command-line interface
-- [ ] Enterprise dashboard
-- [ ] Automated threat response
-
----
-
 <div align="center">
-    <p><strong>CyberGuard File Analyzer</strong> - Protecting your digital world, one file at a time.</p>
+    <p><strong>ZeroRisk Sentinel</strong> - Protecting your digital world, one file at a time.</p>
     <p>⭐ Star this repository if you find it useful!</p>
 </div>
