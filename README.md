@@ -33,9 +33,6 @@ ZeroRisk-File-Security-Scanner/
 │   ├── matrix-bg.jpg       # Matrix-style background
 │   ├── shield-icon.png     # Security shield icon
 │   └── hacker-avatar.jpg   # Cybersecurity expert avatar
-├── interaction.md          # Interaction design documentation
-├── design.md               # Visual design specifications
-├── outline.md              # Project structure outline
 └── README.md               # This file
 ```
 
@@ -49,8 +46,8 @@ ZeroRisk-File-Security-Scanner/
 ### Option 2: Local Server (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cyberguard-file-analyzer.git
-cd cyberguard-file-analyzer
+git clone https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner
+cd ZeroRisk-File-Security-Scanner
 
 # Start a local server
 python -m http.server 8000
@@ -72,7 +69,7 @@ npx serve .
 1. **Download the Project**
    ```bash
    # Using git
-   git clone https://github.com/yourusername/cyberguard-file-analyzer.git
+   git clone https://github.com/shlokkokk/ZeroRisk-File-Security-Scanner
    
    # Or download ZIP from GitHub
    # Extract to your desired location
@@ -80,7 +77,7 @@ npx serve .
 
 2. **Navigate to Project Directory**
    ```bash
-   cd cyberguard-file-analyzer
+   cd ZeroRisk-File-Security-Scanner
    ```
 
 3. **Start Local Development Server**
@@ -202,11 +199,6 @@ if (keyloggerDetected) {
 
 ## 🌐 Deployment Options
 
-### GitHub Pages (Free)
-1. Fork this repository
-2. Enable GitHub Pages in repository settings
-3. Your site will be live at `https://yourusername.github.io/cyberguard-file-analyzer`
-
 ### Traditional Web Hosting
 1. Upload all files to your web server
 2. Ensure `index.html` is in the root directory
@@ -240,14 +232,6 @@ if (keyloggerDetected) {
 | Safari | 13+ | ✅ Full Support |
 | Edge | 80+ | ✅ Full Support |
 | Opera | 67+ | ✅ Full Support |
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ### Contribution Areas
 - 🐛 Bug fixes
