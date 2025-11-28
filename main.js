@@ -799,7 +799,7 @@ function toggleAnalysisDropdown(type) {
         anime({
             targets: dropdown,
             opacity: [0, 1],
-            maxHeight: [0, '200px'],
+            maxHeight: [0, '1000px'],
             duration: 300,
             easing: 'easeOutQuart'
         });
